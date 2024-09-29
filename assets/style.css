@@ -1,1 +1,267 @@
-/*# sourceMappingURL=style.css.map */
+.header-align {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.image-template {
+  display: grid;
+  place-items: center;
+}
+
+main {
+  padding-top: 10vh;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.left-side {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  width: 17vw;
+  height: 90vh;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left-side .ls1 {
+  background-color: rgb(70, 158, 158);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 14vw;
+  height: 45vh;
+}
+.left-side .ls2 {
+  background-color: rgb(15, 77, 77);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 6.5vw;
+  height: 38vh;
+}
+.left-side .ls3 {
+  background-color: rgb(11, 109, 68);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 6.5vw;
+  height: 38vh;
+}
+.left-side .ls23 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.hero {
+  display: flex;
+  background-color: grey;
+  width: 35vw;
+  height: 90vh;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-around;
+}
+.hero .hero-left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.hero .hero-left .h1 {
+  background-color: rgb(202, 78, 20);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 15vw;
+  height: 30vh;
+}
+.hero .hero-left .h2 {
+  background-color: rgb(11, 226, 137);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 15vw;
+  height: 30vh;
+  flex-grow: 2;
+}
+.hero .hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 20px 0;
+  gap: 20px;
+}
+.hero .hero-right .h3 {
+  background-color: rgb(103, 139, 17);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 14vw;
+  height: 40vh;
+  flex-grow: 2;
+}
+.hero .hero-right .h4 {
+  background-color: rgb(141, 22, 101);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 14vw;
+  height: 30vh;
+  flex-shrink: 2;
+}
+.hero .hero-right .h5 {
+  background-color: rgb(45, 25, 163);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 14vw;
+  height: 30vh;
+  flex-shrink: 3;
+}
+.hero .hero-right .h6 {
+  background-color: rgb(211, 152, 24);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 14vw;
+  height: 30vh;
+}
+
+.right-side {
+  display: flex;
+  background-color: grey;
+  width: 15vw;
+  height: 90vh;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.right-side .rs-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px 20px 0;
+}
+.right-side .rs1 {
+  background-color: rgb(97, 30, 160);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 14vw;
+  margin: 20px 0 20px 10px;
+  align-items: stretch;
+}
+.right-side .rs2 {
+  background-color: rgb(82, 37, 7);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 6.5vw;
+  height: 30vh;
+}
+.right-side .rs3 {
+  background-color: rgb(25, 82, 58);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 6.5vw;
+  height: 30vh;
+}
+.right-side .rs4 {
+  background-color: rgb(53, 11, 109);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 6.5vw;
+  height: 30vh;
+}
+
+.bottom-left,
+.bottom-right {
+  display: flex;
+  background-color: grey;
+  width: 35vw;
+  height: 30vh;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.btml-top {
+  display: flex;
+  gap: 20px;
+}
+.btml-top .bl1 {
+  background-color: rgba(128, 13, 13, 0.884);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 18.5vw;
+  height: 15vh;
+}
+
+.btmltop-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.btmltop-right .bl2 {
+  background-color: rgb(11, 179, 11);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 15vw;
+  height: 7vh;
+}
+.btmltop-right .bl3 {
+  background-color: rgb(63, 109, 63);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 15vw;
+  height: 7vh;
+}
+
+.bl4 {
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 35vw;
+  height: 12vh;
+}
+
+.br1 {
+  background-color: rgb(146, 73, 146);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 25vw;
+  height: 30vh;
+}
+
+.bottom-right {
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.btmr-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch;
+}
+.btmr-right .br2 {
+  background-color: rgb(117, 179, 230);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 15vw;
+  height: 11vh;
+  flex-grow: 2;
+}
+.btmr-right .br3 {
+  background-color: rgb(41, 66, 13);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 7vw;
+  height: 17vh;
+  flex-grow: 2;
+}
+.btmr-right .br4 {
+  background-color: rgb(38, 17, 77);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 7vw;
+  height: 17vh;
+  flex-grow: 2;
+}/*# sourceMappingURL=style.css.map */
